@@ -6,8 +6,8 @@ titleTemplate: 一个Vue3组件库
 
 hero:
   name: DJ
-  text: 一个Vue3组件库
-  tagline: 没啥特点仅供学习
+  text: 丁云亭你怎么还不下班啊？
+  tagline: 打你屁屁
   image:
     src: /logo.png
     alt: logo
