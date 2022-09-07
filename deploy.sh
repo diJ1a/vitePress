@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# 1. 打开控制台，并切换到 git bash
+# 2. 输入 ./deploy.sh 回车
+
 # 忽略错误
 set -e
 
