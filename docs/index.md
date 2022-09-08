@@ -6,8 +6,8 @@ titleTemplate: 一个Vue3组件库
 
 hero:
   name: DJ
-  text: 丁云亭你怎么还不下班啊？
-  tagline: 打你屁屁
+  text: 博客
+  tagline: vitePress样式修改
   image:
     src: /logo.png
     alt: logo
