@@ -1,11 +1,18 @@
 export default {
-  title: 'DJ',
+  // Default: /
+  base: '/',
+  // https://vitepress.vuejs.org/
+  // 首页title
+  title: 'Vite',
+  // 其他页title
   titleTemplate: 'Vite & Vue powered static site generator',
+  // <meta name="description" content="Just playing around.">
   description: 'Just playing around.',
+  // 最后更新时间
   lastUpdated: true,
   markdown: {
-    theme: 'material-palenight',
-    lineNumbers: true
+    // 显示第几行代码
+    // lineNumbers: true
   },
   themeConfig: {
     siteTitle: 'Vite 官方中文文档',
@@ -14,13 +21,14 @@ export default {
     nav: [
       { text: '首页', link: '/' },
       { text: 'Guide', link: '/guide/' },
+      { text: 'API', link: '/api/' },
       { text: '博客', link: '/articles/' },
       { text: 'GuideTest', link: '/guide/test' },
-      { text: 'gitee', link: 'https://gitee.com/geeksdidi' }
+      { text: 'gitee', link: 'https://github.com/diJ1a' }
     ],
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://gitee.com/geeksdidi' },
+      { icon: 'github', link: 'https://github.com/diJ1a' },
       { icon: 'twitter', link: '...' },
       { icon: 'facebook', link: '...' },
       { icon: 'instagram', link: '...' }
@@ -53,6 +61,18 @@ export default {
             }
           ]
         }
+      ],
+      '/api/': [
+        {
+          text: 'API Reference',
+          collapsible: true,
+          items: [
+            {
+              text: 'useData',
+              link: '/api/'
+            }
+          ]
+        }
       ]
     },
     // footer
@@ -61,7 +81,7 @@ export default {
     },
     // 修改文档链接
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/diJ1a',
       text: 'Edit this page on GitHub'
     }
   }

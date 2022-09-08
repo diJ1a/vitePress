@@ -1,0 +1,299 @@
+.viteconf {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 14px;
+  padding-left: 2.5rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  filter: grayscale(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+  background-color: var(--vp-c-bg-alt);
+  border: 2px solid var(--vp-c-bg-alt);
+  transition: border-color .5s
+}
+
+.viteconf:hover {
+  filter: grayscale(0%);
+  border: 2px solid var(--vp-c-brand-light)
+}
+
+.viteconf img {
+  position: absolute;
+  left: 1.5rem;
+  transition: transform .5s
+}
+
+.viteconf:hover img {
+  transform: scale(1.75)
+}
+
+.viteconf:hover .heading {
+  background-image: linear-gradient(120deg,#bd34fe 16%,var(--vp-c-brand-light),var(--vp-c-brand-light));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.viteconf .extra-info {
+  color: var(--vp-c-text-1);
+  opacity: 0;
+  font-size: .7rem;
+  padding-left: .1rem;
+  transition: opacity .5s
+}
+
+.viteconf:hover .extra-info {
+  opacity: .9
+}
+
+.svg-image-root {
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 1ch;
+  margin: 1ch 0
+}
+
+html.dark .svg-image-root {
+  background-color: #313641
+}
+
+.svg-image-root svg text {
+  font-family: var(--vp-font-family-base)
+}
+
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9499ff;
+  --vp-c-brand-lightest: #bcc0ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+  --vp-c-brand-dimm: rgba(100, 108, 255, .08)
+}
+
+:root {
+  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-text: var(--vp-c-text-dark-1);
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-text: var(--vp-c-text-dark-1);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg)
+}
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff );
+  --vp-home-hero-image-background-image: linear-gradient( -45deg, #bd34fe 50%, #47caff 50% );
+  --vp-home-hero-image-filter: blur(40px)
+}
+
+@media (min-width: 640px) {
+  :root {
+      --vp-home-hero-image-filter: blur(56px)
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+      --vp-home-hero-image-filter: blur(72px)
+  }
+}
+
+:root {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm)
+}
+
+.dark {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm)
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand) !important
+}
+
+.dark .vp-doc a,.dark .vp-doc a>code,.dark .VPNavBarMenuLink.VPNavBarMenuLink:hover,.dark .VPNavBarMenuLink.VPNavBarMenuLink.active,.dark .link.link:hover,.dark .link.link.active,.dark .edit-link-button.edit-link-button,.dark .pager-link .title {
+  color: var(--vp-c-brand-lighter)
+}
+
+.dark .vp-doc a:hover,.dark .vp-doc a>code:hover {
+  color: var(--vp-c-brand-lightest);
+  opacity: 1
+}
+
+.dark .vp-doc .custom-block a {
+  transition: color .25s
+}
+
+.home-hero .image {
+  width: 200px;
+  height: 200px
+}
+
+.nav-bar .logo {
+  height: 30px;
+  margin-right: 2px
+}
+
+.content img {
+  border-radius: 10px
+}
+
+.nav-dropdown-link-item .icon {
+  display: none
+}
+
+:root {
+  --c-brand: #646cff;
+  --c-brand-light: #747bff
+}
+
+.custom-block.tip {
+  border-color: var(--c-brand-light)
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--c-brand) !important
+}
+
+#play-vite-audio {
+  padding: 0;
+  margin-left: 5px;
+  display: inline-flex
+}
+
+#play-vite-audio img {
+  opacity: .8
+}
+
+.cn-footnote {
+  margin-top: 20px
+}
+
+.cn-footnote .title {
+  display: block;
+  margin-bottom: 10px
+}
+
+.docs-cn-github-release-tag {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 6px;
+  margin-left: 6px;
+  background: var(--c-brand);
+  color: #fff;
+  border-radius: 10px
+}
+
+#wwads-container {
+  position: relative;
+  float: right;
+  z-index: 9;
+  margin: 0 0 16px 16px
+}
+
+#wwads-container .wwads-text {
+  font-size: 12px
+}
+
+.page .container .content {
+  clear: none!important
+}
+
+@media (min-width: 1368px) {
+  #wwads-container {
+      position:fixed;
+      bottom: 10px;
+      right: 10px;
+      margin: 0
+  }
+}
+
+.stackblitz-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center
+}
+
+@media screen and (max-width: 550px) {
+  .stackblitz-links {
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+      gap: 2rem;
+      padding-left: 3rem;
+      padding-right: 3rem
+  }
+}
+
+.stackblitz-links>a {
+  width: 70px;
+  height: 70px;
+  display: grid;
+  align-items: center;
+  justify-items: center
+}
+
+.stackblitz-links>a:hover {
+  filter: drop-shadow(0 0 .5em #646cffaa)
+}
+
+.VPCarbonAds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  border-radius: 12px;
+  min-height: 240px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: var(--vp-c-bg-soft);
+  transition: color .5s,background-color .5s
+}
+
+.VPCarbonAds img {
+  margin: 0 auto;
+  border-radius: 6px
+}
+
+.VPCarbonAds .carbon-text {
+  display: block;
+  margin: 0 auto;
+  padding-top: 12px;
+  color: var(--vp-c-text-1);
+  transition: color .25s
+}
+
+.VPCarbonAds .carbon-text:hover {
+  color: var(--vp-c-brand)
+}
+
+.VPCarbonAds .carbon-poweredby {
+  display: block;
+  padding-top: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  text-transform: uppercase;
+  transition: color .25s
+}
+
+.VPCarbonAds .carbon-poweredby:hover {
+  color: var(--vp-c-text-1)
+}
