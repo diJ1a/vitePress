@@ -52,3 +52,7 @@ const { theme } = useData()
   <h1>{{ theme.footer.copyright }}</h1>
 </template>
 ```
+
+
+## common component
+<commonCom />
