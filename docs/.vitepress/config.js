@@ -23,7 +23,7 @@ export default {
       { text: 'Guide', link: '/guide/' },
       { text: 'API', link: '/api/' },
       { text: '博客', link: '/articles/' },
-      { text: 'GuideTest', link: '/guide/test' },
+      { text: 'Element Plus', link: '/guide/element' },
       { text: 'gitee', link: 'https://github.com/diJ1a' }
     ],
     // 社交链接

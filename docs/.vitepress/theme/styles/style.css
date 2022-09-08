@@ -297,3 +297,7 @@ html.dark .svg-image-root {
 .VPCarbonAds .carbon-poweredby:hover {
   color: var(--vp-c-text-1)
 }
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
