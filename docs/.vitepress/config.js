@@ -8,7 +8,7 @@ const ogUrl = 'https://vitejs.dev'
 
 export default defineConfig({
   // Default: /
-  base: '/',
+  base: '/blog/',
   // https://vitepress.vuejs.org/
   // 首页title
   title: 'Vite',
@@ -22,12 +22,12 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.jpg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
   ],
 
   themeConfig: {
     siteTitle: 'Vite 官方中文文档',
-    logo: '/logo.jpg',
+    logo: '/logo.svg',
     // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/diJ1a' },
@@ -37,7 +37,7 @@ export default defineConfig({
     ],
     // footer
     footer: {
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'MIT Licensed | Copyright © 2019-present Jia Di'
     },
     // 导航
     nav: [

@@ -5,8 +5,8 @@ title: Home
 titleTemplate: 一个Vue3组件库
 
 hero:
-  name: DJ
-  text: 博客
+  name: Vite
+  text: 下一代的前端工具链
   tagline: vitePress样式修改
   image:
     src: /logo.png
