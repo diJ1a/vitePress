@@ -16,7 +16,7 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router, siteData }) {
-    console.log('Vue版本',app.version)
+    // console.log('Vue版本',app.version)
     // 公共组件祖册
     app.component('commonCom', common)
 
