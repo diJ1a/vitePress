@@ -9,7 +9,7 @@ hero:
   text: 下一代的前端工具链
   tagline: vitePress样式修改
   image:
-    src: /logo.png
+    src: /vite.png
     alt: logo
   actions:
     - theme: brand
