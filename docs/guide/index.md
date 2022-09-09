@@ -1,6 +1,6 @@
 # guide
 <script setup>
-import hello from '../src/components/hello.vue'
+import hello from '../.vitepress/theme/components/hello.vue'
 </script>
 
 <hello />

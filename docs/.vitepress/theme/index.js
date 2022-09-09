@@ -3,7 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 // 个人样式主题
 import './styles/style.css'
 // 公共组件
-import common from '../../src/components/common.vue'
+import common from './components/common.vue'
 
 // 引入 Element Plus
 import ElementPlus from 'element-plus'

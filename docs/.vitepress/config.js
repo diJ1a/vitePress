@@ -1,11 +1,17 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+const ogDescription = 'Next Generation Frontend Tooling'
+const ogImage = 'https://vitejs.dev/og-image.png'
+const ogTitle = 'Vite'
+const ogUrl = 'https://vitejs.dev'
+
+
+export default defineConfig({
   // Default: /
   base: '/',
   // https://vitepress.vuejs.org/
   // 首页title
   title: 'Vite',
-  // 其他页title
-  titleTemplate: 'Vite & Vue powered static site generator',
   // <meta name="description" content="Just playing around.">
   description: 'Just playing around.',
   // 最后更新时间
@@ -14,9 +20,25 @@ export default {
     // 显示第几行代码
     // lineNumbers: true
   },
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.jpg' }]
+  ],
+
   themeConfig: {
     siteTitle: 'Vite 官方中文文档',
-    logo: '/logo.svg',
+    logo: '/logo.jpg',
+    // 社交链接
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/diJ1a' },
+      { icon: 'twitter', link: '...' },
+      { icon: 'facebook', link: '...' },
+      { icon: 'instagram', link: '...' }
+    ],
+    // footer
+    footer: {
+      copyright: 'Copyright © 2019-present Evan You'
+    },
     // 导航
     nav: [
       { text: '首页', link: '/' },
@@ -25,13 +47,6 @@ export default {
       { text: '博客', link: '/articles/' },
       { text: 'Element Plus', link: '/guide/element' },
       { text: 'gitee', link: 'https://github.com/diJ1a' }
-    ],
-    // 社交链接
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/diJ1a' },
-      { icon: 'twitter', link: '...' },
-      { icon: 'facebook', link: '...' },
-      { icon: 'instagram', link: '...' }
     ],
     // 侧边栏
     sidebar: {
@@ -75,14 +90,10 @@ export default {
         }
       ]
     },
-    // footer
-    footer: {
-      copyright: 'Copyright © 2019-present Evan You'
-    },
     // 修改文档链接
     editLink: {
       pattern: 'https://github.com/diJ1a',
       text: 'Edit this page on GitHub'
     }
   }
-}
+})

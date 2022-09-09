@@ -5,7 +5,7 @@
 ## 基础用法
 使用 `type`、`plain`、`round` 和 `circle` 来定义按钮的样式。
 <script setup>
-import ButtonCom from '../src/components/button.vue'
+import ButtonCom from '../.vitepress/theme/components/button.vue'
 </script>
 <el-row class="mb-4">
   <el-button>Default</el-button>
@@ -23,4 +23,5 @@ import ButtonCom from '../src/components/button.vue'
   <el-button type="warning" icon="Star" circle />
   <el-button type="danger" icon="Delete" circle />
 </el-row>
+<br />
 <ButtonCom />

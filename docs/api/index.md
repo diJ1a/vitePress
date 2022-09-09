@@ -12,7 +12,7 @@ Methods that start with `use*` indicates that it is a [Vue 3 Composition API](ht
 ## `useData`
 
 <script setup>
-import useData from '../src/components/useData.vue'
+import useData from '../.vitepress/theme/components/useData.vue'
 </script>
 
 ::: tip Custom Title
