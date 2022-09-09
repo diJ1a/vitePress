@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import { ElMessage } from 'element-plus'
+// import { ElMessage } from 'element-plus'
 import { ref } from 'vue'
 const msg = ref(10)
 const btn = () => {
