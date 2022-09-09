@@ -5,7 +5,6 @@ const ogImage = 'https://vitejs.dev/og-image.png'
 const ogTitle = 'Vite'
 const ogUrl = 'https://vitejs.dev'
 
-
 export default defineConfig({
   // Default: /
   base: '/blog/',
