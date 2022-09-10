@@ -17,7 +17,7 @@ export default defineConfig({
   lastUpdated: true,
   markdown: {
     // 显示第几行代码
-    // lineNumbers: true
+    lineNumbers: true
   },
 
   head: [
