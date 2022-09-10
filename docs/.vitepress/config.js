@@ -21,7 +21,9 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://raw.githubusercontent.com/diJ1a/vitePress/main/docs/public/favicon.ico' }]
+    // ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://raw.githubusercontent.com/diJ1a/vitePress/main/docs/public/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: './favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: './logo.svg' }]
   ],
 
   themeConfig: {
