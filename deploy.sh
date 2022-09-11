@@ -15,6 +15,9 @@ cd docs/.vitepress/dist
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
+#删除已有.git文件夹
+rm -rf .git
+echo delete .git
 git init
 git add -A
 git commit -m 'deploy'
