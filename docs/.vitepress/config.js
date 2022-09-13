@@ -10,7 +10,7 @@ export default defineConfig({
   base: '/blog/',
   // https://vitepress.vuejs.org/
   // 首页title
-  title: 'Vite',
+  title: 'diJ1a',
   // <meta name="description" content="Just playing around.">
   description: 'Just playing around.',
   // 最后更新时间
@@ -31,10 +31,7 @@ export default defineConfig({
     logo: '/logo.svg',
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/diJ1a' },
-      { icon: 'twitter', link: '...' },
-      { icon: 'facebook', link: '...' },
-      { icon: 'instagram', link: '...' }
+      { icon: 'github', link: 'https://github.com/diJ1a' }
     ],
     // footer
     footer: {
@@ -47,7 +44,7 @@ export default defineConfig({
       { text: 'API', link: '/api/' },
       { text: '博客', link: '/articles/' },
       { text: 'Element Plus', link: '/guide/element' },
-      { text: 'gitee', link: 'https://github.com/diJ1a' }
+      { text: '关于我', link: '/me/' }
     ],
     // 侧边栏
     sidebar: {
@@ -100,11 +97,11 @@ export default defineConfig({
           ]
         }
       ]
-    },
-    // 修改文档链接
-    editLink: {
-      pattern: 'https://github.com/diJ1a',
-      text: 'Edit this page on GitHub'
     }
+    // 修改文档链接
+    // editLink: {
+    //   pattern: 'https://github.com/diJ1a',
+    //   text: 'Edit this page on GitHub'
+    // }
   }
 })
