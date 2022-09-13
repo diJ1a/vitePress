@@ -76,6 +76,16 @@ export default defineConfig({
               link: '/articles/pina和vuex'
             }
           ]
+        },
+        {
+          text: 'VS Code配置',
+          collapsible: true,
+          items: [
+            {
+              text: '添加Git Bash终端',
+              link: '/articles/添加Git Bash终端'
+            }
+          ]
         }
       ],
       '/api/': [
