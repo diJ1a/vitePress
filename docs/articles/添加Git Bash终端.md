@@ -1,4 +1,9 @@
+---
+# layout: doc, page, and home.
+layout: doc
 
+title: 添加Git Bash终端
+---
 **VS Code版本: 1.70.2**
 
 ## 问题描述

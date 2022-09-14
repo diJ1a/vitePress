@@ -1,5 +1,6 @@
 ---
-layout: home
+# There are 3 layout options, doc, page, and home.
+layout: home 
 
 title: Home
 titleTemplate: 一个Vue3组件库

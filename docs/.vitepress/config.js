@@ -83,6 +83,16 @@ export default defineConfig({
               link: '/articles/添加Git Bash终端'
             }
           ]
+        },
+        {
+          text: 'XHR',
+          collapsible: true,
+          items: [
+            {
+              text: 'Fetch',
+              link: '/articles/xhr'
+            }
+          ]
         }
       ],
       '/api/': [

@@ -1,3 +1,7 @@
+---
+# layout: doc, page, and home.
+layout: doc
+---
 # Button 按钮
 
 常用的操作按钮。
